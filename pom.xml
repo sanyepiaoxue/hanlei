@@ -9,9 +9,15 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.han</groupId>
+<<<<<<< HEAD
     <artifactId>myboot1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>myboot1</name>
+=======
+    <artifactId>myboot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>myboot</name>
+>>>>>>> 11117a255ed55a62f8bf8f03892c0c44f5ec4642
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,12 +29,28 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
+<<<<<<< HEAD
+=======
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+>>>>>>> 11117a255ed55a62f8bf8f03892c0c44f5ec4642
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+<<<<<<< HEAD
+=======
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+>>>>>>> 11117a255ed55a62f8bf8f03892c0c44f5ec4642
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -48,6 +70,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+<<<<<<< HEAD
+=======
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+>>>>>>> 11117a255ed55a62f8bf8f03892c0c44f5ec4642
         </plugins>
     </build>
 
